@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+  min-height: 100vh;
+  padding: 24px 16px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.sub {
+  font-size: 11px;
+  color: #888;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.note {
+  font-size: 10px;
+  color: #aaa;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 14px 16px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card-no {
+  background: #4a90d9;
+  color: #fff;
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.card-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-area {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.card-comment {
+  font-size: 11px;
+  font-weight: 400;
+  color: #4a90d9;
+}
+
+.card-building {
+  font-size: 11px;
+  color: #888;
+  margin-top: 1px;
+}
+
+.card-price {
+  background: #fff3e0;
+  color: #e65100;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 12px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.info-label {
+  font-size: 10px;
+  color: #999;
+  width: 56px;
+  flex-shrink: 0;
+}
+
+.info-value {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+}
+
+.info-value.unknown {
+  font-weight: 400;
+  color: #bbb;
+}
+
+.info-value.highlight {
+  color: #2e7d32;
+}
+
+.monthly-note {
+  font-size: 10px;
+  color: #999;
+  margin-top: 4px;
+  margin-left: 50px;
+}
+
+.access-box {
+  margin-top: 10px;
+  background: #f0f7ff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 12px;
+}
+
+.access-title {
+  font-size: 11px;
+  color: #4a90d9;
+  font-weight: 600;
+  grid-column: 1 / -1;
+  margin-bottom: 4px;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 11px;
+  color: #4a90d9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.warning {
+  max-width: 680px;
+  margin: 20px auto 0;
+  background: #fff3cd;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 11px;
+  color: #856404;
+}
